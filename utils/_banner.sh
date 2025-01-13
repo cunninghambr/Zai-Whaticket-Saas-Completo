@@ -33,12 +33,6 @@ print_centered() {
 
 # Define BANNER_ART here
 BANNER_ART="
-    ____  _______    ____________  _   ___   _______________________    ____
-   / __ \/ ____/ |  / / ____/ __ \/ | / / | / / ____/ ____/_  __/   |  /  _/
-  / / / / __/  | | / / /   / / / /  |/ /  |/ / __/ / /     / / / /| |  / /  
- / /_/ / /___  | |/ / /___/ /_/ / /|  / /|  / /___/ /___  / / / ___ |_/ /   
-/_____/_____/  |___/\____/\____/_/ |_/_/ |_/_____/\____/ /_/ /_/  |_/___/   
-                                                                             "
 
 print_banner() {
     # Clear the screen
@@ -51,13 +45,8 @@ print_banner() {
     done <<< "$BANNER_ART"
 
     # Print information text, centered
-    print_centered "DEVCONNECTAI" "$Light_Blue"
-    print_centered "Compartilhar, vender ou fornecer essa solução" "$Light_Blue"
-    print_centered "sem autorização é crime previsto no artigo 184" "$Light_Blue"
-    print_centered "do código penal que descreve a conduta criminosa" "$Light_Blue"
-    print_centered "de infringir os direitos autorais da DEVCONNECTAI." "$Light_Blue"
-    print_centered "PIRATEAR ESSA SOLUÇÃO É CRIME." "$Light_Blue"
-    print_centered "© DEVCONNECTAI" "$Light_Blue"
+    print_centered "AGUARDE" "$Light_Blue"
+
 
     # Ensure the color settings are reset
     echo -e "$Color_Off"
